@@ -6,5 +6,3 @@ module Twilio
     end
   end
 end
-
-    
