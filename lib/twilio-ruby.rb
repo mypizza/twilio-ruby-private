@@ -110,6 +110,8 @@ require 'twilio-ruby/rest/lookups_client'
 require 'twilio-ruby/rest/pricing_client'
 require 'twilio-ruby/rest/monitor_client'
 require 'twilio-ruby/rest/ip_messaging_client'
+require 'twilio-ruby/rest/faxing_client'
+require 'twilio-ruby/rest/faxing/faxes'
 require 'rack/twilio_webhook_authentication'
 
 module Twilio
