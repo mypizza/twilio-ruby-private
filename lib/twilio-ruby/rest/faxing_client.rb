@@ -7,8 +7,8 @@ module Twilio
       include Twilio::REST::Utils
       attr_reader :faxes
 
-      API_VERSION = 'fax'  
-      host 'preview.twilio.com'
+      API_VERSION = 'fax'
+      host 'fax.twilio.com'
 
       ##
       # Instantiate a new HTTP client to talk to Twilio's Faxing API. The
@@ -18,10 +18,10 @@ module Twilio
       # parameter is a hash of connection configuration options. the following
       # keys are supported:
       #
-      # === <tt>host: 'preview.twilio.com'</tt>
+      # === <tt>host: 'fax.twilio.com'</tt>
       #
       # The domain to which you'd like the client to make HTTP requests. Useful
-      # for testing. Defaults to 'preview.twilio.com'.
+      # for testing. Defaults to 'fax.twilio.com'.
       #
       # === <tt>port: 443</tt>
       #
