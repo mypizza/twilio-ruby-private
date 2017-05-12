@@ -7,7 +7,7 @@ module Twilio
       include Twilio::REST::Utils
       attr_reader :faxes
 
-      API_VERSION = 'fax'
+      API_VERSION = 'v1'
       host 'fax.twilio.com'
 
       ##
